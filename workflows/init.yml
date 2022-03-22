@@ -1,0 +1,9 @@
+name: basic CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  call-workflow: kritikos-io/.github/workflows/version.yml@v1
