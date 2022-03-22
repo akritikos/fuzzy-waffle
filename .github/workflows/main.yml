@@ -3,8 +3,8 @@ name: basic CI
 on:
   workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   call-workflow:
-    uses: kritikos-io/.github/workflows/version.yml@v1
+    uses: "kritikos-io/.github/workflows/version.yml@v1"
