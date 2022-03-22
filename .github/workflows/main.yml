@@ -7,4 +7,4 @@ on:
 
 jobs:
   call-workflow:
-    uses: kritikos-io/.github/workflows/version.yml@main
+    uses: 'kritikos-io/.github/.github/workflows/version.yml@main'
